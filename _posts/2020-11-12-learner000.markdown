@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Learner000"
+date:   2020-11-12
+categories: learning
+---
+
+1. Wall time
+I see the wall time a lot, but really bothered look what is it exactly. It's actually really simple: It's the time from the task start time to task finish time, which is refering to the time on the wall clock. 
+
+2. sm_86
+I recently bought a RTX 3080 card and tried to get it working with some deep learning project. So I kind of need to install cuda. The question is which version. As 11.1 is the lastest at the moment, I naturally installed that one. However, on Pytorch website, it seemed like that it only supports to 11.0. Luckily, after installing and testing, they seems working together just fine. 
+
+But it got me curious, if it would have worked with cuda 11.0. 
+I'm still not quite sure but according to [this post][matching-arch], it seems 11.1 is the one to go.
+
+So much to learn about GPU computation. Good to start from somewhere
+
+[matching-arch]: https://arnon.dk/matching-sm-architectures-arch-and-gencode-for-various-nvidia-cards/
